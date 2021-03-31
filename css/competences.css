@@ -1,0 +1,33 @@
+body {
+    background-color: #37AB8B;
+}
+
+main {
+    color: white;
+    text-align: center;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    height: 100%;
+    scroll-snap-align: start;
+    margin-top: 0;
+}
+
+section > div {
+    margin: auto 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 90vh;
+    align-items: center;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+/* Pie */
+.highcharts-credits, .highcharts-background {
+    display: none;
+}

@@ -1,5 +1,8 @@
-main {
+body {
     background-color: #FB9F06;
+}
+
+main {
     color: white;
     text-align: center;
     scroll-behavior: smooth;
@@ -9,7 +12,7 @@ main {
 section {
     height: 100%;
     scroll-snap-align: start;
-    padding: 15%;
+    padding: 20%;
     margin-top: 0;
 }
 
