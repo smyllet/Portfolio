@@ -1,0 +1,12 @@
+main {
+    background-color: #048CD4;
+}
+
+#home_presentation_div {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    margin-top: 20%;
+    text-align: center;
+    color: white;
+}

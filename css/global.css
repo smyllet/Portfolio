@@ -1,0 +1,34 @@
+html, body, main {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    position: absolute;
+    top: 55px;
+    bottom: 0;
+    width: 100%;
+
+    overflow-y: auto;
+}
+
+.navbar {
+    height: 55px;
+}
+
+/* Custom Scrollbar */
+main::-webkit-scrollbar {
+    width: 10px;
+}
+
+main::-webkit-scrollbar-track {
+    background: rgba(44,44,44,0.1);
+}
+
+main::-webkit-scrollbar-thumb {
+    background: rgba(44,44,44,0.7);
+}
+
+main::-webkit-scrollbar-thumb:hover {
+    background: rgba(44,44,44,0.9);
+}
