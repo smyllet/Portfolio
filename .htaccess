@@ -20,3 +20,7 @@
         Header set Expires "Thu, 1 Jan 1970 00:00:00 GMT"
     </IfModule>
 </FilesMatch>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

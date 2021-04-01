@@ -16,11 +16,13 @@ section {
 }
 
 section > div {
+    height: calc(100vh - 55px);
     margin: auto 10%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 90vh;
+    grid-auto-rows: 1fr;
     align-items: center;
+    padding: 10px;
 }
 
 h1 {
@@ -30,4 +32,21 @@ h1 {
 /* Pie */
 .highcharts-credits, .highcharts-background {
     display: none;
+}
+
+.highcharts-figure {
+    padding: 10px 0;
+    overflow-y: hidden;
+}
+
+@media all and (max-width: 530px) {
+    section > div {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        margin: auto 10px;
+    }
+
+    section > div > h1 {
+        grid-row: 1;
+    }
 }

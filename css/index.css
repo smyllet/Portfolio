@@ -1,12 +1,17 @@
-main {
+body {
     background-color: #048CD4;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
 }
 
 #home_presentation_div {
     margin-right: auto;
     margin-left: auto;
-    width: 60%;
-    margin-top: 20%;
+    width: 90%;
     text-align: center;
     color: white;
 }

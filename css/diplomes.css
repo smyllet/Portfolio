@@ -12,11 +12,21 @@ main {
 section {
     height: 100%;
     scroll-snap-align: start;
-    padding: 20%;
     margin-top: 0;
+
+    display: grid;
+    grid-auto-columns: auto;
+    grid-template-rows: 1fr;
+    align-items: center;
 }
 
 section > div {
-    width: 60%;
+    width: 60vw;
     margin: auto;
+}
+
+@media all and (max-width: 530px) {
+    section > div {
+        width: 90vw;
+    }
 }

@@ -56,6 +56,12 @@ $(document).ready(() => {
 
 function initPie(idContainer, seriesName, data) {
     Highcharts.chart(idContainer, {
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+            borderWidth: 0
+        },
         colors: ["#31cdde","#1d636b","#2b8994","#2acadb","#76d3de","#19b1c2","#2ccadb","#2c8a94","#44eafc"],
         title: {
             style: {
@@ -77,7 +83,7 @@ function initPie(idContainer, seriesName, data) {
             pie: {
                 allowPointSelect: true,
                 cursor: 'pointer',
-                size: 350,
+                size: "100%",
                 dataLabels: {
                     enabled: true,
                     format: '<b>{point.name}</b>: {point.percentage:.1f} %',
@@ -90,6 +96,32 @@ function initPie(idContainer, seriesName, data) {
         },
         tooltip: {
             pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 400
+                },
+                chartOptions: {
+                    legend: {
+                        enabled: true,
+                        width: 400,
+                        floating: false,
+                        align: 'left',
+                        x: 50
+                    },
+                    plotOptions: {
+                        pie: {
+                            size: "85%",
+                            showInLegend: true,
+                            dataLabels: {
+                                format: "{point.percentage}%",
+                                distance: -20
+                            }
+                        }
+                    }
+                }
+            }]
         },
         series: [{
             name: seriesName,

@@ -20,9 +20,6 @@
             <li class="nav-item <?php if($page == "projets") echo "active"?>">
                 <a class="nav-link" href="/projets">Projets</a>
             </li>
-            <li class="nav-item <?php if($page == "parcourt") echo "active"?>">
-                <a class="nav-link" href="#">Parcourt</a>
-            </li>
         </ul>
     </div>
 </nav>

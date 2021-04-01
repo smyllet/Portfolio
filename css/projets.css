@@ -32,3 +32,13 @@ section:not(.active) {
     cursor: pointer;
     color: lightgray;
 }
+
+@media all and (max-width: 530px) {
+    main {
+        gap: 10px;
+    }
+
+    .arrow {
+        margin: 10px;
+    }
+}
