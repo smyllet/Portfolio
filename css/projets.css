@@ -1,0 +1,34 @@
+body {
+    background-color: #9C3B34;
+}
+
+main {
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-auto-columns: min-content auto min-content;
+    grid-template-rows: 1fr;
+    align-items: center;
+    gap: 150px;
+}
+
+main > * {
+    grid-row: 1;
+}
+
+section:not(.active) {
+    display: none;
+}
+
+.arrow {
+    color: white;
+    font-size: xxx-large;
+    position: relative;
+    margin: 50px;
+}
+
+.arrow:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: lightgray;
+}
