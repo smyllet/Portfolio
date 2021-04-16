@@ -17,6 +17,9 @@
             <li class="nav-item <?php if($page == "competences") echo "active"?>">
                 <a class="nav-link" href="/competences">Compétences</a>
             </li>
+            <li class="nav-item <?php if($page == "parcours") echo "active"?>">
+                <a class="nav-link" href="/parcours">Parcours</a>
+            </li>
             <li class="nav-item <?php if($page == "projets") echo "active"?>">
                 <a class="nav-link" href="/projets">Projets</a>
             </li>
