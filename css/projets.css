@@ -1,9 +1,4 @@
-body {
-    background-color: #9C3B34;
-}
-
 main {
-    color: white;
     text-align: center;
     display: grid;
     grid-auto-columns: min-content auto min-content;

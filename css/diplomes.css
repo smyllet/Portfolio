@@ -1,9 +1,4 @@
-body {
-    background-color: #FB9F06;
-}
-
 main {
-    color: white;
     text-align: center;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;

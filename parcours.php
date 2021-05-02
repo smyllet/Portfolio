@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Bryan Prolong - Projets</title>
+    <title>Bryan Prolong - Parcours</title>
     <?php include "./html/head.html"?>
 
     <link rel="stylesheet" href="./css/parcours.css">
@@ -18,6 +18,9 @@
     <section id="start">
         <div>
             <h1>Parcours de professionnalisation</h1>
+            <div class="bounce-arrow">
+                <a class="fa fa-angle-down fa-4x" href="#rentrée-2016"></a>
+            </div>
         </div>
     </section>
     <section id="rentrée-2016">

@@ -23,6 +23,9 @@
             <li class="nav-item <?php if($page == "projets") echo "active"?>">
                 <a class="nav-link" href="/projets">Projets</a>
             </li>
+            <li class="nav-item <?php if($page == "veille") echo "active"?>">
+                <a class="nav-link" href="/veille">Veille Technologique</a>
+            </li>
         </ul>
     </div>
 </nav>

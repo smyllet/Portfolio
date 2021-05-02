@@ -16,7 +16,7 @@
     <?php include "./html/header.php" ?>
 </header>
 <main>
-    <section>
+    <section hidden>
         <div>
             <h1>DevOps</h1>
             <figure class="highcharts-figure">

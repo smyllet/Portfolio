@@ -1,0 +1,39 @@
+main {
+    text-align: center;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    height: 100%;
+    scroll-snap-align: start;
+    margin-top: 0;
+
+    display: grid;
+    align-items: center;
+}
+
+section > div {
+    display: grid;
+    gap: 50px;
+}
+
+.veille-content {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: min-content max-content;
+    gap: 50px;
+    justify-items: center;
+    width: min-content;
+}
+
+.veille-content img {
+    height: 250px;
+}
+
+.veille-content .right {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}

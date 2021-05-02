@@ -1,9 +1,4 @@
-body {
-    background-color: #3F0AA1;
-}
-
 main {
-    color: white;
     text-align: center;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
@@ -91,4 +86,8 @@ section h1 {
     #start h1{
         font-size: xx-large;
     }
+}
+
+.bounce-arrow{
+    grid-column: 1/-1;
 }

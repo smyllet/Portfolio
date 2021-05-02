@@ -70,7 +70,7 @@ function initPie(idContainer, seriesName, data) {
         },
         legend: {
             itemStyle: {
-                color: 'white'
+                color: '#1C1C24'
             },
             itemHoverStyle:{
                 color: '#D4D4D4'
@@ -87,7 +87,7 @@ function initPie(idContainer, seriesName, data) {
                 dataLabels: {
                     enabled: true,
                     format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-                    color: 'white',
+                    color: '#1C1C24',
                     style: {
                         textOutline: 0
                     }

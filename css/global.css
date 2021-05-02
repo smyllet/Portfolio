@@ -1,6 +1,11 @@
 html, body, main {
     max-width: 100%;
     overflow-x: hidden;
+    color: #1C1C24;
+}
+
+body {
+    background-color: #FCFCF4;
 }
 
 main {
@@ -37,4 +42,78 @@ main::-webkit-scrollbar-thumb {
 
 main::-webkit-scrollbar-thumb:hover {
     background: rgba(44,44,44,0.9);
+}
+
+@font-face {
+    font-family: 'marianne';
+    src: url("/fonts/Marianne-Thin.otf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'marianne-regular';
+    src: url("/fonts/Marianne-Regular.otf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'marianne-bold';
+    src: url("/fonts/Marianne-Bold.otf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'marianne-medium';
+    src: url("/fonts/Marianne-Medium.otf");
+    font-style: normal;
+}
+
+h1, h2, h3 {
+    font-family: marianne-bold, sans-serif;
+}
+
+h4, h5, h6 {
+    font-family: marianne-medium, sans-serif;
+}
+
+p {
+    font-family: marianne, sans-serif;
+}
+
+.source {
+    font-family: marianne-regular, sans-serif;
+}
+
+.bounce-arrow {
+    text-align: center;
+    margin: 8% 0;
+}
+
+.bounce-arrow a {
+    color: #5C6C7C;
+    text-decoration: none;
+}
+
+.bounce-arrow a:hover {
+    color: #6F7F8F;
+    text-decoration: none;
+}
+
+.bounce-arrow {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
 }
