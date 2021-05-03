@@ -1,0 +1,19 @@
+main {
+    display: grid;
+    gap: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 20vh;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    text-align-last: center;
+}

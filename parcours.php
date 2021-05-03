@@ -41,13 +41,14 @@
         </div>
     </section>
     <section id="année-2017-2018">
-        <div>
+        <div class="date-right">
             <div>
                 <h2>Teku V1 & V2</h2>
                 <p>
                     Premier projet de développement qui m'aura suivi pendant les 5 dernières années, Teku est un bot pour le service de chat Discord, il est développé en Node JS et communique avec discord via le package discord.js.
                     Dans sa première version, il ne fera que répondre à des commandes simples comme connaître le temps de latence de l'API ou faire des pile ou face. Il verra rapidement sa première refonte complète arriver, afin de mieux mettre en application les connaissances acquises durant la version 1. Cette refonte consistera en l'ajout de nouvelles fonctionnalités comme une commande de report et de suggestion, et même un système monétaire, qui ne sera finalement pas gardé.
                 </p>
+                <a class="btn btn-dark" href="/projet/teku">Voir plus</a>
             </div>
             <div>
                 <h2>Trouve le mot</h2>
@@ -71,7 +72,7 @@
         </div>
     </section>
     <section id="juin-septembre-2019">
-        <div>
+        <div class="date-right">
             <div>
                 <h2>Obtention du BAC</h2>
                 <p>
@@ -99,7 +100,7 @@
         </div>
     </section>
     <section id="mars-2020">
-        <div>
+        <div class="date-right">
             <div>
                 <h2>Nombre et Mot Mystère</h2>
                 <p>
@@ -124,7 +125,7 @@
         </div>
     </section>
     <section id="juillet-aout-2020">
-        <div>
+        <div class="date-right">
             <div>
                 <h2>VoIP to Discord</h2>
                 <p>
@@ -149,7 +150,7 @@
         </div>
     </section>
     <section id="décembre-2020">
-        <div>
+        <div class="date-right">
             <div>
                 <h2>Promo Étudiant</h2>
                 <p>
@@ -180,7 +181,7 @@
         </div>
     </section>
     <section id="mars-2021">
-        <div>
+        <div class="date-right">
             <div>
                 <h2>PortFolio</h2>
                 <p>

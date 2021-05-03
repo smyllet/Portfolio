@@ -31,6 +31,7 @@
         <section>
             <h1>Teku (Bot Discord)</h1>
             <p>Teku est un tchat bot pour discord permettant différente chose comme la modération avancé du serveur, l’obtentions de fiche détailler dans le tchat sur des films, jeu vidéo, livre et autre grâce au site senscritique, l’écoute de musique dans les salons vocaux depuis YouTube . . .</p>
+            <a class="btn btn-dark" href="/projet/teku">Voir plus</a>
         </section>
         <section>
             <h1>Portfolio</h1>
