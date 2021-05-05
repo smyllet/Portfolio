@@ -146,6 +146,7 @@
                     Disney Pins DataBase est un site développé en Node JS, référençant de manière participative les pins des différents parcs Disney du monde. Ce projet dispose aussi d'une API afin de pouvoir construire différents services à partir de cette base de données.
                     Le projet est actuellement en cours de développement et a pour but d'être présenté à l'épreuve E4 du BTS SIO. D'autres fonctionnalités sont prévues pour une éventuelle mise en production courant 2022, selon sa progression et s’il encourt des problèmes de droit.
                 </p>
+                <a class="btn btn-dark" href="/projet/dpdb">Voir plus</a>
             </div>
         </div>
     </section>

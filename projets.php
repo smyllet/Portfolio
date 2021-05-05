@@ -22,6 +22,7 @@
             <h1>Disney Pins DataBase</h1>
             <p>Disney Pins DataBase est une API répertoriant tous les Pins des différents parcs Disneyland.</p>
             <p>Ce projet à été réalisé dans le but d'être présenté à l'épreuve E4 de BTS SIO.</p>
+            <a class="btn btn-dark" href="/projet/teku">Voir plus</a>
         </section>
         <section>
             <h1>Poké Compare</h1>

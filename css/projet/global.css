@@ -7,8 +7,13 @@ h1 {
     text-align: center;
 }
 
-img {
+.logo_container img {
     height: 20vh;
+}
+
+.logo_container > * {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 section {

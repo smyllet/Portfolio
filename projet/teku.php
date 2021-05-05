@@ -4,7 +4,7 @@
     <title>Bryan Prolong - Teku</title>
     <?php include "../html/head.html"?>
 
-    <link rel="stylesheet" href="/css/projet/teku.css">
+    <link rel="stylesheet" href="/css/projet/global.css">
 </head>
 <body>
 <header>
@@ -26,7 +26,9 @@
     <section>
         <h2>Technologie</h2>
         <p>Il a été développer en Node JS avec la librairie Discord.JS pour la connexion avec Discord</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="logo nodejs">
+        <div class="logo_container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="logo nodejs">
+        </div>
     </section>
     <section>
         <h2>Test et mise en production</h2>
