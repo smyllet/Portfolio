@@ -11,8 +11,8 @@
             <li class="nav-item <?php if($page == "accueil") echo "active"?>">
                 <a class="nav-link" href="/">Accueil</a>
             </li>
-            <li class="nav-item <?php if($page == "diplomes") echo "active"?>">
-                <a class="nav-link" href="/diplomes">Diplômes</a>
+            <li class="nav-item <?php if($page == "cv") echo "active"?>">
+                <a class="nav-link" href="/cv.php">CV</a>
             </li>
             <li class="nav-item <?php if($page == "competences") echo "active"?>">
                 <a class="nav-link" href="/competences">Compétences</a>

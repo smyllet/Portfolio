@@ -28,7 +28,7 @@
 
             <div class="filter-group">
                 <div class="form-group">
-                    <label for="filter-status">Status</label>
+                    <label for="filter-status">Statut</label>
                     <select class="form-control shadow-none" id="filter-status">
                         <option value="all">Tous</option>
                     </select>
@@ -78,7 +78,7 @@
         <div class="projet-detail">
             <div class="projet-st">
                 <div>
-                    <h6>Status</h6>
+                    <h6>Statut</h6>
                     <p class="projet-status">Inconnu</p>
                 </div>
                 <div>
