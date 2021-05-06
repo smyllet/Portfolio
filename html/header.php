@@ -12,7 +12,7 @@
                 <a class="nav-link" href="/">Accueil</a>
             </li>
             <li class="nav-item <?php if($page == "cv") echo "active"?>">
-                <a class="nav-link" href="/cv.php">CV</a>
+                <a class="nav-link" href="/cv">CV</a>
             </li>
             <li class="nav-item <?php if($page == "competences") echo "active"?>">
                 <a class="nav-link" href="/competences">Compétences</a>
@@ -25,6 +25,9 @@
             </li>
             <li class="nav-item <?php if($page == "veille") echo "active"?>">
                 <a class="nav-link" href="/veille">Veille Technologique</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mailto:bryan.prolong@outlook.fr?subject=[Contact Portfolio]">Contact</a>
             </li>
         </ul>
     </div>
