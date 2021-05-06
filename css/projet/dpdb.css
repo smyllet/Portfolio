@@ -1,3 +1,32 @@
+#disney-icon-container {
+    background-color: #1A4F75;
+}
+
+#disney-icon-container img {
+    height: 60vh;
+}
+
+#motivation-icon-container {
+    background-color: #5CC4BC;
+}
+
+#sql-icon-container {
+    background-color: #002B3D;
+}
+
+#fonction-icon-container {
+    background-color: #8CCCEA;
+}
+
+#bug-icon-container {
+    background-color: #0AA9CF;
+}
+
+#uml-container {
+    background-color: #54CC7C;
+}
+
 .uml {
-    height: 95vh;
+    height: auto !important;
+    width: auto;
 }
