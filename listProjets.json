@@ -1,0 +1,54 @@
+{
+  "projets": [
+    {
+      "name": "Teku",
+      "description": "Teku est un bot pour le service de tchat Discord, il a été développer pour le serveur Dynivers afin d'amélioré la modération et d'ajouter de nouvelle fonctionnalité au serveur. Sont développement à commencé en 2017 et il en est actuellement à sa version 4.",
+      "language": ["Node JS"],
+      "status": "ec",
+      "type": "p",
+      "git": "https://github.com/smyllet/Teku",
+      "detail": "teku",
+      "keyword": ["discord", "teku", "discord.js", "framework", "agile", "bot", "chat", "tchat", "dynivers", "modération"]
+    },
+    {
+      "name": "Disney Pins DataBase",
+      "description": "Disney Pins DataBase est un service pour répertorier les pins des différents parcs Disneyland du monde. L’objectif était de permettre au collectionneur de pouvoir retrouver facilement tous les pins facilement à un seul endroit. Un système de contribution a été mis en place pour aider à référencer les différents pins sortis depuis l’ouverture des parcs. Une API a aussi été mise en place afin de pouvoir créer différentes applications à partir de cette base de données.",
+      "language": ["Node JS", "SQL", "JavaScript", "HTML", "CSS"],
+      "status": "ec",
+      "type": "p",
+      "u4": true,
+      "git": "https://github.com/smyllet/DisneyPinsDataBase/",
+      "detail": "dpdb",
+      "keyword": ["dpdb", "disney pins database", "framework", "express", "api", "base de données", "docker"]
+    }
+  ],
+  "status": [
+    {
+      "code": "ec",
+      "libelle": "En cours"
+    },
+    {
+      "code": "t",
+      "libelle": "Terminé"
+    },
+    {
+      "code": "a",
+      "libelle": "Annulé"
+    }
+  ],
+  "type": [
+    {
+      "code": "p",
+      "libelle": "Personnel"
+    },
+    {
+      "code": "s",
+      "libelle": "Scolaire"
+    },
+    {
+      "code": "p",
+      "libelle": "Professionnel"
+    }
+  ]
+}
+

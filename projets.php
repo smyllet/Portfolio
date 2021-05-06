@@ -16,38 +16,89 @@
     <?php include "./html/header.php" ?>
 </header>
 <main>
-    <a id="previous" class="arrow">&#10094</a>
-    <div id="carousel">
-        <section class="active">
-            <h1>Disney Pins DataBase</h1>
-            <p>Disney Pins DataBase est une API répertoriant tous les Pins des différents parcs Disneyland.</p>
-            <p>Ce projet à été réalisé dans le but d'être présenté à l'épreuve E4 de BTS SIO.</p>
-            <a class="btn btn-dark" href="/projet/teku">Voir plus</a>
-        </section>
-        <section>
-            <h1>Poké Compare</h1>
-            <p>Poké Compare est un site permettant de comparer, deux Pokémon entre eux.</p>
-            <p>Ce projet à été réalisé dans le but d'être présenté à l'épreuve E4 de BTS SIO.</p>
-        </section>
-        <section>
-            <h1>Teku (Bot Discord)</h1>
-            <p>Teku est un tchat bot pour discord permettant différente chose comme la modération avancé du serveur, l’obtentions de fiche détailler dans le tchat sur des films, jeu vidéo, livre et autre grâce au site senscritique, l’écoute de musique dans les salons vocaux depuis YouTube . . .</p>
-            <a class="btn btn-dark" href="/projet/teku">Voir plus</a>
-        </section>
-        <section>
-            <h1>Portfolio</h1>
-            <p>Portfolio pour l'épreuve E6 du BTS SIO.</p>
-        </section>
-        <section>
-            <h1>VOIP to Discord</h1>
-            <p>L'objectif est de connecter une ligne SIP via un bot à un salon vocal sur Discord.</p>
-        </section>
-        <section>
-            <h1>Pronote Notif Server</h1>
-            <p>L'objectif était de vérifier régulièrement l'emploie du temps Pronote afin de pouvoir envoyé une notification lorsque qu'un cours était déplacer ou annulé.</p>
-        </section>
+    <div id="projets-filter">
+        <div>
+            <h1>Recherche Projets</h1>
+
+            <div class="form-group">
+                <label for="filter-search-input">Mots clé</label>
+                <input id="filter-search-input" class="form-control" placeholder="Discord, Framework, Java,...">
+            </div>
+
+
+            <div class="filter-group">
+                <div class="form-group">
+                    <label for="filter-status">Status</label>
+                    <select class="form-control shadow-none" id="filter-status">
+                        <option value="all">Tous</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="filter-type">Type</label>
+                    <select class="form-control shadow-none" id="filter-type">
+                        <option value="all">Tous</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="filter-u4">
+                    <label class="form-check-label" for="filter-u4">
+                        Épreuve U4
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="filter-opensource">
+                    <label class="form-check-label" for="filter-opensource">
+                        Open Source
+                    </label>
+                </div>
+            </div>
+        </div>
     </div>
-    <a id="next" class="arrow">&#10095</a>
+    <div id="projets-container">
+        <div id="projets-loading">
+            <h2>Récupération des projets</h2>
+            <div class="lds-dual-ring"></div>
+        </div>
+    </div>
 </main>
+<template id="projet-nothing-template">
+    <div class="projet-nothing">
+        <h2>Aucun projet</h2>
+    </div>
+</template>
+<template id="projet-template">
+    <div class="projet">
+        <div class="projet-info">
+            <h3 class="projet-name"></h3>
+            <p class="projet-description"></p>
+        </div>
+        <div class="projet-detail">
+            <div class="projet-st">
+                <div>
+                    <h6>Status</h6>
+                    <p class="projet-status">Inconnu</p>
+                </div>
+                <div>
+                    <h6>Type</h6>
+                    <p class="projet-type">Inconnu</p>
+                </div>
+            </div>
+
+            <p class="projet-u4" style="display: none">Projet présenté à l'épreuve U4 du BTS SIO</p>
+
+            <div class="projet-langage-container">
+                <h6>Language utilisé</h6>
+                <p class="projet-langage"></p>
+            </div>
+
+            <div class="projet-buttons">
+                <!-- insertion des boutons détail et github -->
+            </div>
+        </div>
+    </div>
+</template>
 </body>
 </html>
