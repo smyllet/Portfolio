@@ -23,6 +23,10 @@
                 <p>
                     Disney Pins DataBase est un service pour répertorier les pins des différents parcs Disneyland du monde. L’objectif était de permettre au collectionneur de pouvoir retrouver facilement tous les pins facilement à un seul endroit. Un système de contribution a été mis en place pour aider à référencer les différents pins sortis depuis l’ouverture des parcs. Une API a aussi été mise en place afin de pouvoir créer différentes applications à partir de cette base de données.
                 </p>
+                <div class="button-group">
+                    <a href="https://demo-dpdb.dynivers.fr"><button class="btn btn-info">Demo (mot de passe requis)</button></a>
+                    <a href="https://github.com/smyllet/DisneyPinsDataBase"><button class="btn btn-dark">GitHub</button></a>
+                </div>
             </div>
         </div>
         <div id="disney-icon-container" class="image-center">

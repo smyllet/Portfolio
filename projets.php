@@ -59,8 +59,10 @@
     </div>
     <div id="projets-container">
         <div id="projets-loading">
-            <h2>Récupération des projets</h2>
-            <div class="lds-dual-ring"></div>
+            <div>
+                <h2>Récupération des projets</h2>
+                <div class="lds-dual-ring"></div>
+            </div>
         </div>
     </div>
 </main>

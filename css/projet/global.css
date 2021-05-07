@@ -46,6 +46,13 @@ section > * {
     margin: auto;
 }
 
+.button-group {
+    display: grid;
+    gap: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
 @media all and (max-width: 1000px){
     section {
         grid-template-columns: 1fr;

@@ -24,6 +24,9 @@
                     Teku est un bot pour le service de tchat Discord, il a été développer pour le serveur Dynivers afin d'amélioré la modération et d'ajouter de nouvelle fonctionnalité au serveur.
                     Sont développement à commencé en 2017 et il en est actuellement à sa version 4.
                 </p>
+                <div class="button-group">
+                    <a href="https://github.com/smyllet/Teku"><button class="btn btn-dark">GitHub</button></a>
+                </div>
             </div>
         </div>
         <div id="discord-icon-container" class="image-center">

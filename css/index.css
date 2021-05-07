@@ -1,12 +1,38 @@
 main {
     display: grid;
-    grid-template-rows: 1fr;
-    align-items: center;
 }
 
-#home_presentation_div {
-    margin-right: auto;
-    margin-left: auto;
-    width: 90%;
-    text-align: center;
+@keyframes slideDown {
+    0% {
+        transform: translateY(-30%) translateX(-2%);
+    }
+    100% {
+        transform: translateY(0) translateX(0);
+    }
+}
+
+main > * {
+    margin: auto;
+    text-align: justify;
+    text-align-last: center;
+
+    animation: 0.5s ease-out 0s 1 slideDown;
+}
+
+p {
+    font-family: marianne-regular, sans-serif;
+}
+
+h1 {
+    text-shadow: 1px 1px 2px gray;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #3D86BA;
+}
+
+a:hover {
+    color: #3D86BA;
+
 }

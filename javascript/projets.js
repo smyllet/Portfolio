@@ -9,8 +9,10 @@ $(document).ready(() => {
             type = data.type
             status = data.status
 
-            updateForm()
-            updateProjetList()
+            setTimeout(() => {
+                updateForm()
+                updateProjetList()
+            }, 300)
         })
     } catch (e) {
         alert('Erreur lors de la récupération des projets')
