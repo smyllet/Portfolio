@@ -55,6 +55,7 @@
                 <p>
                     Trouve le mot est un petit jeu mobile en Java sur Android. Le jeu fournit une catégorie et une lettre, et il faut trouver le mot qui y correspond.
                 </p>
+                <a class="btn btn-dark" href="/projet/trouvelemot">Voir plus</a>
             </div>
             <h1>2017-2018</h1>
         </div>
@@ -194,6 +195,7 @@
                 <p>
                     PokéCompare est un projet pour l'épreuve E4 du BTS SIO. Il a été développé pour une exécution sur navigateur, et permet de comparer deux Pokémon entre eux. Les informations sur les Pokémon sont récupérées via l'API pokéapi.co.
                 </p>
+                <a class="btn btn-dark" href="/projet/pokecompare">Voir plus</a>
             </div>
             <h1>Mars 2021</h1>
         </div>

@@ -22,6 +22,16 @@
       "keyword": ["dpdb", "disney pins database", "framework", "express", "api", "base de données", "docker"]
     },
     {
+      "name": "Trouve le mot",
+      "description": "Trouve le mot est un petit jeu mobile en Java sur Android. Le jeu fournit une catégorie et une lettre, et il faut trouver le mot qui y correspond.",
+      "language": ["Java", "XML"],
+      "status": "t",
+      "type": "p",
+      "git": "https://github.com/smyllet/TrouveLeMot",
+      "detail": "trouvelemot",
+      "keyword": ["trouve le mot", "android", "petit bac", "carte", "jeu", "famille"]
+    },
+    {
       "name": "PokéCompare",
       "description": "PokéCompare est une application web permettant de comparer entre eux deux Pokémon. Un système de filtre est disponible pour pouvoir comparer leurs attaques. Il est aussi possible de rechercher un Pokémon à partir des zones d’apparition d’un autre.",
       "language": ["JavaScript", "HTML", "CSS"],
@@ -33,14 +43,47 @@
       "keyword": ["pokécompare", "framework", "api", "pokémon", "axios", "comparateur"]
     },
     {
-      "name": "Trouve le mot",
-      "description": "Trouve le mot est un petit jeu mobile en Java sur Android. Le jeu fournit une catégorie et une lettre, et il faut trouver le mot qui y correspond.",
-      "language": ["Java", "XML"],
+      "name": "Stady",
+      "description": "Stady est un projet de fin de première année de BTS SIO que l’on devait réaliser en PHP à plusieurs. L'objectif était de créer un site permettant de suivre les stages des étudiants. Ce projet ne sera pas entièrement terminé à cause de la situation sanitaire et d'un nombre de fonctionnalités prévu un peu trop ambitieux.",
+      "language": ["PHP", "JavaScript", "HTML", "CSS"],
       "status": "t",
+      "type": "s",
+      "git": "https://github.com/smyllet/stady",
+      "keyword": ["stady", "éducation", "stage", "gestion", "mvc"]
+    },
+    {
+      "name": "Stage Umanis - TeamBuilder",
+      "description": "Durant ce stage, j'ai pu participer à l'amélioration du frontend d'un service interne à Umanis permettant de faire correspondre des prestataires/CV avec des missions. La grande majorité du développement que j'ai eu à faire était en JavaScript, ce qui m'a permis de renforcer mon niveau en JavaScript pur, étant plutôt habitué à l'utiliser avec Node JS.",
+      "language": ["JavaScript", "HTML", "CSS"],
+      "status": "t",
+      "type": "pro",
+      "keyword": ["stage", "umanis", "frontend", "teambuilder", "cv", "scoring"]
+    },
+    {
+      "name": "Nombre et Mot Mystère",
+      "description": "Ce projet consiste en 2 petits jeux en lignes de commande Java. Le premier génère un nombre aléatoirement afin de le faire deviner à l'utilisateur avec un nombre d'essais limité. À chaque tentative, le programme indique si c'est plus ou moins. Le deuxième demande à un utilisateur de saisir un mot, un deuxième utilisateur a ensuite un nombre de tentatives proportionnel au nombre de caractères du mot. À chaque tentative, les lettres correctes restent affichées.",
+      "language": ["Java"],
+      "status": "t",
+      "type": "s",
+      "git": "https://github.com/smyllet/NombreEtMotMystere",
+      "keyword": ["nombre et mot mystère", "jeu", "ligne de commande", "cmd"]
+    },
+    {
+      "name": "Pronote Notif Server",
+      "description": "Ce projet en Node JS consiste en un programme serveur qui récupérait régulièrement l'emploi du temps au format ICAL sur pronote, et qui devait envoyer une notification lorsqu'un changement était détecté par rapport à la version précédente. Il est resté en phase de prototype.",
+      "language": ["Node JS"],
+      "status": "a",
       "type": "p",
-      "git": "https://github.com/smyllet/TrouveLeMot",
-      "detail": "trouvelemot",
-      "keyword": ["trouve le mot", "android", "petit bac", "carte", "jeu", "famille"]
+      "git": "https://github.com/smyllet/Pronote-Notif-Server",
+      "keyword": ["pronote notif server", "ical", "notification", "éducation"]
+    },
+    {
+      "name": "VoIP to Discord",
+      "description": "L'objectif de ce projet était de connecter un numéro SIP à un bot Discord afin de pouvoir se connecter en vocal sur discord même sans internet. D'abord prévu en Node JS, finalement conçu en Java par commodité. Projet mis de côté à cause de problèmes audio entre Discord et la librairie de  VoIP.",
+      "language": ["Node JS", "Java"],
+      "status": "a",
+      "type": "p",
+      "keyword": ["voip to discord", "sip", "téléphone", "communication"]
     }
   ],
   "status": [
@@ -67,7 +110,7 @@
       "libelle": "Scolaire"
     },
     {
-      "code": "p",
+      "code": "pro",
       "libelle": "Professionnel"
     }
   ]
