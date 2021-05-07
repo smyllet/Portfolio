@@ -2,7 +2,7 @@
   "projets": [
     {
       "name": "Teku",
-      "description": "Teku est un bot pour le service de tchat Discord, il a été développer pour le serveur Dynivers afin d'amélioré la modération et d'ajouter de nouvelle fonctionnalité au serveur. Sont développement à commencé en 2017 et il en est actuellement à sa version 4.",
+      "description": "Teku est un bot pour le service de tchat Discord, il a été développé pour le serveur Dynivers afin d'amélioré la modération et d'ajouter de nouvelle fonctionnalité au serveur. Sont développement à commencé en 2017 et il en est actuellement à sa version 4.",
       "language": ["Node JS", "JavaScript"],
       "status": "ec",
       "type": "p",
@@ -31,6 +31,16 @@
       "git": "https://github.com/smyllet/PokeCompare",
       "detail": "pokecompare",
       "keyword": ["pokécompare", "framework", "api", "pokémon", "axios", "comparateur"]
+    },
+    {
+      "name": "Trouve le mot",
+      "description": "Trouve le mot est un petit jeu mobile en Java sur Android. Le jeu fournit une catégorie et une lettre, et il faut trouver le mot qui y correspond.",
+      "language": ["Java", "XML"],
+      "status": "t",
+      "type": "p",
+      "git": "https://github.com/smyllet/TrouveLeMot",
+      "detail": "trouvelemot",
+      "keyword": ["trouve le mot", "android", "petit bac", "carte", "jeu", "famille"]
     }
   ],
   "status": [
