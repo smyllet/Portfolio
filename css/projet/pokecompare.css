@@ -1,0 +1,25 @@
+#pokemon-icon-container {
+    background-color: #E52226;
+}
+
+#javascript-icon-container {
+    background-color: #FCD404;
+}
+
+#fonction-icon-container {
+    background-color: #187441;
+}
+
+#bug-icon-container {
+    background-color: #96C9DC;
+}
+
+#request-api-text-container {
+    background-color: #F06A25;
+    color: white;
+}
+
+#request-api-container > img {
+    height: auto !important;
+    width: auto;
+}

@@ -3,7 +3,7 @@
     {
       "name": "Teku",
       "description": "Teku est un bot pour le service de tchat Discord, il a été développer pour le serveur Dynivers afin d'amélioré la modération et d'ajouter de nouvelle fonctionnalité au serveur. Sont développement à commencé en 2017 et il en est actuellement à sa version 4.",
-      "language": ["Node JS"],
+      "language": ["Node JS", "JavaScript"],
       "status": "ec",
       "type": "p",
       "git": "https://github.com/smyllet/Teku",
@@ -20,6 +20,17 @@
       "git": "https://github.com/smyllet/DisneyPinsDataBase/",
       "detail": "dpdb",
       "keyword": ["dpdb", "disney pins database", "framework", "express", "api", "base de données", "docker"]
+    },
+    {
+      "name": "PokéCompare",
+      "description": "PokéCompare est une application web permettant de comparer entre eux deux Pokémon. Un système de filtre est disponible pour pouvoir comparer leurs attaques. Il est aussi possible de rechercher un Pokémon à partir des zones d’apparition d’un autre.",
+      "language": ["JavaScript", "HTML", "CSS"],
+      "status": "t",
+      "type": "s",
+      "u4": true,
+      "git": "https://github.com/smyllet/PokeCompare",
+      "detail": "pokecompare",
+      "keyword": ["pokécompare", "framework", "api", "pokémon", "axios", "comparateur"]
     }
   ],
   "status": [

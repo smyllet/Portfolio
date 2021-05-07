@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Bryan Prolong - Teku</title>
+    <title>Bryan Prolong - Disney Pins DataBase</title>
     <?php include "../html/head.html"?>
 
     <link rel="stylesheet" href="/css/projet/global.css">
