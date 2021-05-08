@@ -1,0 +1,31 @@
+[
+  {
+    "title": "19 Novembre 2019",
+    "text": "Google à l'écoute des développeur Flutter. Suite à un sondage fait auprès de 7500 développeur en aout, Google liste les problèmes les plus signalé et donne les solutions envisagés",
+    "src": "https://medium.com/flutter/we-hear-you-learnings-from-q3-2019-flutter-user-survey-af588dbd71b1",
+    "color": "#2572AB"
+  },
+  {
+    "title": "8 Mars 2021",
+    "text": "Flutter choix par défaut pour les future applications sur Ubuntu",
+    "src": "https://linux.developpez.com/actu/313194/Ubuntu-fait-de-Flutter-un-choix-par-defaut-pour-les-futures-applications-de-bureau-Canonical-veut-parier-sur-le-futur-du-framework-libre-et-open-source-de-developpement-d-UI-propose-par-Google/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/285px-Logo-ubuntu_cof-orange-hex.svg.png",
+    "color": "#5E8892"
+  },
+  {
+    "title": "Avril 2021",
+    "text": "Flutter en pleine essor de popularité selon les Malt Tech Trends 2021",
+    "src": "https://www.malt.fr/resources/reports/tech-data-2021/5661b3ca-9dc9-4e91-8c33-143df58b5192",
+    "image": "/img/veille/malt2021trend.png",
+    "color": "#F7F5F5",
+    "bigPicture": true
+  },
+  {
+    "title": "29 Avril 2021",
+    "text": "Adobe annonce un plugin pour son logiciel de design Adobe XD afin de convertir un prototype en application Flutter",
+    "src": "https://medium.com/flutter/announcing-xd-to-flutter-v2-0-c743bac2aeeb",
+    "image": "https://xd.adobe.com/landing/plugin-download/assets/dt_Illustration.png",
+    "color": "#DE2A6B",
+    "bigPicture": true
+  }
+]

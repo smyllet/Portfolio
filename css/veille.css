@@ -11,29 +11,111 @@ section {
 
     display: grid;
     align-items: center;
+
+    overflow-y: hidden;
+
+    grid-auto-columns: 1fr;
 }
 
-section > div {
+section > * {
+    height: 100%;
+}
+
+@media (min-width: 850px){
+    section > * {
+        grid-row: 1;
+        height: 100%;
+    }
+}
+
+.image-center {
     display: grid;
-    gap: 50px;
 }
 
-.veille-content {
-    margin-left: auto;
-    margin-right: auto;
+.image-center img {
+    height: 35vh;
+    max-width: 90%;
+    margin: auto;
+}
+
+.big-picture {
     display: grid;
-    grid-template-columns: min-content max-content;
-    gap: 50px;
-    justify-items: center;
-    width: min-content;
 }
 
-.veille-content img {
-    height: 250px;
+.big-picture img {
+    margin: auto;
+    max-height: 90vh;
+    max-width: 45vw;
 }
 
-.veille-content .right {
-    text-align: left;
-    margin-top: auto;
-    margin-bottom: auto;
+.content-center {
+    display: grid;
+    padding: 50px;
+}
+
+.content-center > * {
+    margin: auto;
+}
+
+p {
+    font-family: marianne-regular, sans-serif;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.progress {
+    margin: 10px;
+    width: 80vw;
+}
+
+#loading-screen {
+    background-color: #343A40;
+    color: white;
+    height: calc(100vh - 55px);
+    width: 100%;
+    position: fixed;
+    display: grid;
+}
+
+#loading-screen > * {
+    margin: auto;
+    height: min-content;
+
+    display: grid;
+    gap: 30px;
+}
+
+main.loading > *:not(#main-section):not(#loading-screen){
+    display: none;
+}
+
+main:not(.loading) #loading-screen {
+    animation: 0.5s ease-out 0s end-loading;
+    transform: translateY(-100%);
+}
+
+@keyframes end-loading {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.source {
+    font-family: marianne-regular, sans-serif;
+    padding: 15px;
+}
+
+section.colored {
+    color: white;
+}
+
+section.colored a {
+    color: lightgray;
+}
+
+section.colored a:hover {
+    color: darkgray;
 }

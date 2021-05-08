@@ -15,35 +15,31 @@
     ?>
     <?php include "./html/header.php" ?>
 </header>
-<main>
-    <section>
+<main class="loading">
+    <section id="loading-screen">
         <div>
+            <h1>Veille technologique</h1>
             <div>
-                <h1>Veille Technologique</h1>
-                <h2>Flutter & Dart</h2>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 0" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h6 id="loading-screen-text">Récupération de la veille technologique</h6>
             </div>
-            <p>
-                Flutter est un framework open source créer par Google en 2017 pour la conception d'interface utilisateur. Il permet de développer des applications qui serons ensuite compilées en application natif Android, IOS, Web et Bureau.
-                <br>
-                Le language utilisé par ce framework et le Dart, proposé par Google en 2011, il s'agit d'un language orienté objet.
-            </p>
         </div>
     </section>
-    <section>
-        <div>
+    <section id="main-section">
+        <div class="content-center">
             <div>
-                <h1>8 Mars 2021</h1>
-                <h2>Flutter choix par défaut pour les future applications sur Ubuntu</h2>
+                <h1>Révolution native avec Flutter</h1>
+                <p>
+                    Flutter est un framework open source créer par Google en 2017 pour la conception d'interface utilisateur. Il permet de développer des applications qui serons ensuite compilées en application natif Android, IOS, Web et Bureau.
+                    <br>
+                    Le language utilisé par ce framework et le Dart, proposé par Google en 2011, il s'agit d'un language orienté objet.
+                </p>
             </div>
-            <div class="veille-content">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/285px-Logo-ubuntu_cof-orange-hex.svg.png" alt="Logo Ubuntu"/>
-                <div class="right">
-                    <p>
-
-                    </p>
-                </div>
-            </div>
-            <small class="source">Source : <a href="https://linux.developpez.com/actu/313194/Ubuntu-fait-de-Flutter-un-choix-par-defaut-pour-les-futures-applications-de-bureau-Canonical-veut-parier-sur-le-futur-du-framework-libre-et-open-source-de-developpement-d-UI-propose-par-Google/" target="_blank">linux.developpez.com</a></small>
+        </div>
+        <div style="background-color: #B3E6FB" class="image-center">
+            <img src="/img/veille/flutter.png" alt="Logo Flutter"/>
         </div>
     </section>
 </main>
