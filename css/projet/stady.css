@@ -1,0 +1,36 @@
+#stady-icon-container {
+    background-color: #4E9CC5;
+}
+
+#php-icon-container {
+    background-color: #1C3850;
+}
+
+#php-icon-container > * {
+    height: 25vh;
+}
+
+#fonction-icon-container {
+    background-color: #23945C;
+}
+
+#error-icon-container {
+    background-color: #04ACA4;
+}
+
+#dev-icon-container {
+    background-color: #04747C;
+}
+
+#carousel * {
+    color: black !important;
+}
+
+#carousel li {
+    background-color: #333333;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(1);
+}

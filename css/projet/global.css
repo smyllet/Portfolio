@@ -58,3 +58,16 @@ section > * {
         grid-template-columns: 1fr;
     }
 }
+
+#carousel_section > * {
+    grid-column: 1/-1;
+    max-height: 80vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+#carousel {
+    border: 3px solid #1C1C24;
+    border-radius: 25px;
+    overflow: hidden;
+}
