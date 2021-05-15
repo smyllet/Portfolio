@@ -26,15 +26,18 @@ $(document).ready(async () => {
                             image = `<div class="${(veille.bigPicture) ? "big-picture" : "image-center"}" ${(veille.color) ? `style="background-color:${veille.color}"` : ''}><img src="${veille.image}"/></div>`
                         }
 
-                        if(dualPos === 1) {
-                            dualPos--
-                            if(image) section.append(image)
-                            section.append(content)
-                        } else {
-                            dualPos++
-                            section.append(content)
-                            if(image) section.append(image)
+                        if(image) {
+                            if(dualPos === 1) {
+                                dualPos--
+                                section.append(image)
+                                section.append(content)
+                            } else {
+                                dualPos++
+                                section.append(content)
+                                section.append(image)
+                            }
                         }
+                        else section.append(content)
 
                         main.append(section)
                     })

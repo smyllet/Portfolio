@@ -6,6 +6,56 @@
     "color": "#2572AB"
   },
   {
+    "title": "25 novembre 2019",
+    "text": "Quel méthode adopter pour un aussi gros projet open source ?",
+    "src": "https://medium.com/flutter/https-medium-com-flutter-issues-bugs-and-backlogs-5fb3adab5e25",
+    "image": "/img/veille/github_issue.png",
+    "color": "#FFFFFF",
+    "bigPicture": true
+  },
+  {
+    "title": "11 décembre 2019",
+    "text": "Flutter version 12",
+    "src": "https://flutter.dev/docs/development/tools/sdk/release-notes/release-notes-1.12.13",
+    "color": "#2F366F"
+  },
+  {
+    "title": "Toujours le 11 décembre 2019",
+    "text": "Première beta pour le support WEB",
+    "src": "https://medium.com/flutter/web-support-for-flutter-goes-beta-35b64a1217c0",
+    "image": "/img/veille/beta.png",
+    "color": "#14BCA4"
+  },
+  {
+    "title": "8 avril 2020",
+    "text": "Durant le confinement, Google met à disposition une formation gratuite à Flutter pour donner l'occasion au personne bloquer chez eux d'acquérir de nouvelles compétences",
+    "src": "https://medium.com/flutter/learn-flutter-for-free-c9bc3b898c4d",
+    "image": "/img/veille/learn_hat.png",
+    "color": "#F99914"
+  },
+  {
+    "title": "15 avril 2020",
+    "text": "CodePen, le célèbre site de partage d'extrait de code frontend prend maintenant en charge Flutter",
+    "src": "https://medium.com/flutter/announcing-codepen-support-for-flutter-bb346406fe50",
+    "image": "/img/veille/codepen.png",
+    "color": "#000000",
+    "bigPicture": true
+  },
+  {
+    "title": "22 avril 2020",
+    "text": "Flutter dépasse les 2 millions d'utilisateurs",
+    "src": "https://medium.com/flutter/flutter-spring-2020-update-f723d898d7af",
+    "color": "#0096B2"
+  },
+  {
+    "title": "20 mai 2020",
+    "text": "Intégration de Sign In with Apple",
+    "src": "https://medium.com/flutter/flutter-package-ecosystem-update-d50645f2d7bc",
+    "image": "/img/veille/apple-signinbutton.jpg",
+    "color": "#FFFFFF",
+    "bigPicture": true
+  },
+  {
     "title": "8 Mars 2021",
     "text": "Flutter choix par défaut pour les future applications sur Ubuntu",
     "src": "https://linux.developpez.com/actu/313194/Ubuntu-fait-de-Flutter-un-choix-par-defaut-pour-les-futures-applications-de-bureau-Canonical-veut-parier-sur-le-futur-du-framework-libre-et-open-source-de-developpement-d-UI-propose-par-Google/",
