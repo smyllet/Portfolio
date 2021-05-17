@@ -76,6 +76,7 @@
         <div class="projet-info">
             <h3 class="projet-name"></h3>
             <p class="projet-description"></p>
+            <small class="projet-date"></small>
         </div>
         <div class="projet-detail">
             <div class="projet-st">

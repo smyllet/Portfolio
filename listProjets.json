@@ -3,16 +3,18 @@
     {
       "name": "Teku",
       "description": "Teku est un bot pour le service de tchat Discord, il a été développé pour le serveur Dynivers afin d'amélioré la modération et d'ajouter de nouvelle fonctionnalité au serveur. Sont développement à commencé en 2017 et il en est actuellement à sa version 4.",
-      "language": ["Node JS", "JavaScript"],
+      "date": "Depuis octobre 2017",
+      "language": ["Node JS"],
       "status": "ec",
       "type": "p",
       "git": "https://github.com/smyllet/Teku",
       "detail": "teku",
-      "keyword": ["discord", "teku", "discord.js", "framework", "agile", "bot", "chat", "tchat", "dynivers", "modération"]
+      "keyword": ["discord", "teku", "discord.js", "framework", "agile", "bot", "chat", "tchat", "dynivers", "modération", "javascript"]
     },
     {
       "name": "Disney Pins DataBase",
       "description": "Disney Pins DataBase est un service pour répertorier les pins des différents parcs Disneyland du monde. L’objectif était de permettre au collectionneur de pouvoir retrouver facilement tous les pins facilement à un seul endroit. Un système de contribution a été mis en place pour aider à référencer les différents pins sortis depuis l’ouverture des parcs. Une API a aussi été mise en place afin de pouvoir créer différentes applications à partir de cette base de données.",
+      "date": "Depuis novembre 2020",
       "language": ["Node JS", "SQL", "JavaScript", "HTML", "CSS"],
       "status": "ec",
       "type": "p",
@@ -24,6 +26,7 @@
     {
       "name": "Trouve le mot",
       "description": "Trouve le mot est un petit jeu mobile en Java sur Android. Le jeu fournit une catégorie et une lettre, et il faut trouver le mot qui y correspond.",
+      "date": "Décembre 2018",
       "language": ["Java", "XML"],
       "status": "t",
       "type": "p",
@@ -34,6 +37,7 @@
     {
       "name": "PokéCompare",
       "description": "PokéCompare est une application web permettant de comparer entre eux deux Pokémon. Un système de filtre est disponible pour pouvoir comparer leurs attaques. Il est aussi possible de rechercher un Pokémon à partir des zones d’apparition d’un autre.",
+      "date": "Mars 2021 - Mai 2021",
       "language": ["JavaScript", "HTML", "CSS"],
       "status": "t",
       "type": "s",
@@ -45,6 +49,7 @@
     {
       "name": "Stady",
       "description": "Stady est un projet de fin de première année de BTS SIO que l’on devait réaliser en PHP à plusieurs. L'objectif était de créer un site permettant de suivre les stages des étudiants. Ce projet ne sera pas entièrement terminé à cause de la situation sanitaire et d'un nombre de fonctionnalités prévu un peu trop ambitieux.",
+      "date": "Mars 2020 - Mai 2020",
       "language": ["PHP", "JavaScript", "HTML", "CSS"],
       "status": "t",
       "type": "s",
@@ -55,14 +60,17 @@
     {
       "name": "Stage Umanis - TeamBuilder",
       "description": "Durant ce stage, j'ai pu participer à l'amélioration du frontend d'un service interne à Umanis permettant de faire correspondre des prestataires/CV avec des missions. La grande majorité du développement que j'ai eu à faire était en JavaScript, ce qui m'a permis de renforcer mon niveau en JavaScript pur, étant plutôt habitué à l'utiliser avec Node JS.",
+      "date": "Janvier 2021 - Mars 2021",
       "language": ["JavaScript", "HTML", "CSS"],
       "status": "t",
       "type": "pro",
+      "detail": "stage",
       "keyword": ["stage", "umanis", "frontend", "teambuilder", "cv", "scoring"]
     },
     {
       "name": "Nombre et Mot Mystère",
       "description": "Ce projet consiste en 2 petits jeux en lignes de commande Java. Le premier génère un nombre aléatoirement afin de le faire deviner à l'utilisateur avec un nombre d'essais limité. À chaque tentative, le programme indique si c'est plus ou moins. Le deuxième demande à un utilisateur de saisir un mot, un deuxième utilisateur a ensuite un nombre de tentatives proportionnel au nombre de caractères du mot. À chaque tentative, les lettres correctes restent affichées.",
+      "date": "Mars 2020",
       "language": ["Java"],
       "status": "t",
       "type": "s",
@@ -72,19 +80,21 @@
     {
       "name": "Pronote Notif Server",
       "description": "Ce projet en Node JS consiste en un programme serveur qui récupérait régulièrement l'emploi du temps au format ICAL sur pronote, et qui devait envoyer une notification lorsqu'un changement était détecté par rapport à la version précédente. Il est resté en phase de prototype.",
+      "date": "Février 2019 - Mars 2019",
       "language": ["Node JS"],
       "status": "a",
       "type": "p",
       "git": "https://github.com/smyllet/Pronote-Notif-Server",
-      "keyword": ["pronote notif server", "ical", "notification", "éducation"]
+      "keyword": ["pronote notif server", "ical", "notification", "éducation", "javascript"]
     },
     {
       "name": "VoIP to Discord",
       "description": "L'objectif de ce projet était de connecter un numéro SIP à un bot Discord afin de pouvoir se connecter en vocal sur discord même sans internet. D'abord prévu en Node JS, finalement conçu en Java par commodité. Projet mis de côté à cause de problèmes audio entre Discord et la librairie de  VoIP.",
+      "date": "Juillet 2020 - Aout 2020",
       "language": ["Node JS", "Java"],
       "status": "a",
       "type": "p",
-      "keyword": ["voip to discord", "sip", "téléphone", "communication"]
+      "keyword": ["voip to discord", "sip", "téléphone", "communication", "javascript"]
     }
   ],
   "status": [

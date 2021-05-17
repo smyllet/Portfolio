@@ -1,0 +1,25 @@
+#umanis-logo-container {
+    background-color: #D40910;
+}
+
+#javascript-icon-container {
+    background-color: #FCD404;
+}
+
+#dev-icon-container {
+    background-color: #3C3943;
+}
+
+#teams-icon-container {
+    background-color: #323B72;
+}
+
+#error-icon-container {
+    background-color: #04ACA4;
+}
+
+iframe {
+    width: 100%;
+    grid-column: 1/-1;
+    border: none;
+}

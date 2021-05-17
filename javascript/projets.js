@@ -69,6 +69,7 @@ function updateProjetList() {
             let projetTemplate = $($('#projet-template').html())
             projetTemplate.find('.projet-name').html(projet.name)
             projetTemplate.find('.projet-description').html(projet.description)
+            if(projet.date) projetTemplate.find('.projet-date').html(projet.date)
 
             let projet_status = status.find(s => s.code === projet.status)
             if(projet_status) projetTemplate.find('.projet-status').html(projet_status.libelle)
