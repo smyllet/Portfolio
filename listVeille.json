@@ -56,6 +56,26 @@
     "bigPicture": true
   },
   {
+    "title": "08 juillet 2020",
+    "text": "Support Linux en beta",
+    "src": "https://medium.com/flutter/announcing-flutter-linux-alpha-with-canonical-19eb824590a9",
+    "image": "/img/veille/beta.png",
+    "color": "#14BCA4"
+  },
+  {
+    "title": "23 septembre 2020",
+    "text": "Alpha du support de Windows",
+    "src": "https://medium.com/flutter/announcing-flutter-windows-alpha-33982cd0f433",
+    "color": "#04A8F9"
+  },
+  {
+    "title": "18 novembre 2020",
+    "text": "Un an avant la poubelle pour les fonctionnalités obsolete",
+    "src": "https://medium.com/flutter/deprecation-lifetime-in-flutter-e4d76ee738ad",
+    "image": "/img/veille/deprecation.png",
+    "color": "#E6F0FC"
+  },
+  {
     "title": "8 Mars 2021",
     "text": "Flutter choix par défaut pour les future applications sur Ubuntu",
     "src": "https://linux.developpez.com/actu/313194/Ubuntu-fait-de-Flutter-un-choix-par-defaut-pour-les-futures-applications-de-bureau-Canonical-veut-parier-sur-le-futur-du-framework-libre-et-open-source-de-developpement-d-UI-propose-par-Google/",
@@ -76,6 +96,14 @@
     "src": "https://medium.com/flutter/announcing-xd-to-flutter-v2-0-c743bac2aeeb",
     "image": "https://xd.adobe.com/landing/plugin-download/assets/dt_Illustration.png",
     "color": "#DE2A6B",
+    "bigPicture": true
+  },
+  {
+    "title": "18 Mai 2021",
+    "text": "Google IO 2021, ils utilisent Flutter",
+    "src": "https://medium.com/flutter/announcing-flutter-2-2-at-google-i-o-2021-92f0fcbd7ef9",
+    "image": "/img/veille/googleio.jpg",
+    "color": "#121214",
     "bigPicture": true
   }
 ]
