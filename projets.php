@@ -45,7 +45,7 @@
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="filter-u4">
                     <label class="form-check-label" for="filter-u4">
-                        Épreuve U4
+                        Épreuve BTS
                     </label>
                 </div>
                 <div class="form-check">

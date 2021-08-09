@@ -24,7 +24,6 @@
                     Disney Pins DataBase est un service pour répertorier les pins des différents parcs Disneyland du monde. L’objectif était de permettre au collectionneur de pouvoir retrouver facilement tous les pins facilement à un seul endroit. Un système de contribution a été mis en place pour aider à référencer les différents pins sortis depuis l’ouverture des parcs. Une API a aussi été mise en place afin de pouvoir créer différentes applications à partir de cette base de données.
                 </p>
                 <div class="button-group">
-                    <a href="https://demo-dpdb.dynivers.fr"><button class="btn btn-info">Demo (mot de passe requis)</button></a>
                     <a href="https://github.com/smyllet/DisneyPinsDataBase"><button class="btn btn-dark">GitHub</button></a>
                 </div>
             </div>
@@ -43,7 +42,7 @@
             <div>
                 <h1>Motivations</h1>
                 <p>
-                    Etant régulièrement à Disneyland Paris, je communique souvent avec des collectionneurs de pins. Au fil des discussions, nous avons remarqué qu’il n’y avait aucun service les référençant. Il est donc tout naturel, lorsqu'on a dû choisir nos projets, que l'un d'eux se soit orienté vers cette thématique.
+                    Etant régulièrement à Disneyland Paris, je communique souvent avec des collectionneurs de pins. Au fil des discussions, nous avons remarqué qu’il n’y avait aucun service les référençant. Il est donc tout naturel, lorsqu'on a dû choisir nos projets pour le BTS, que l'un d'eux se soit orienté vers cette thématique.
                 </p>
 
             </div>
@@ -89,7 +88,6 @@
                 <h1>Problèmes rencontrés</h1>
                 <p>
                     L’interface utilisateur : ayant plus de connaissances Backend, le design m'a posé quelques difficultés lorsque j'ai souhaité créer l'interface, qui me paraît convenable malgré sa simplicité visuelle.
-                    Utilisation du nom Disney à des fins non commerciales : Un des problèmes majeurs rencontrés, qui pourrait mettre fin au projet, est l’utilisation du nom Disney. L’une des solutions serait de présenter un premier prototype auprès de Disneyland Paris, afin de voir ce qu’il serait possible de faire. Dans tous les cas, la fin du projet ne représenterait pas un échec total, au vu des connaissances qu’il aura pu m’apporter.
                 </p>
             </div>
         </div>

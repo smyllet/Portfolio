@@ -73,8 +73,7 @@
             <div>
                 <h1>Apprentissage</h1>
                 <p>
-                    Etant mon premier projet, Teku m'a permis d'apprendre les bases du développement ainsi que le javascript, il m'a aussi permit de mettre en application de manière concrete ce que j'ai appris durant ma formation (comme la POO ou les tests unitaire)
-                    Je pense que ce projet à autant apporté à ma formation que ce que ma formation lui apporte.</p>
+                    Etant mon premier projet, Teku m'a permis d'apprendre les bases du développement ainsi que le javascript, il m'a aussi permit de mettre en application de manière concrete ce que j'ai appris durant ma formation.</p>
             </div>
         </div>
     </section>

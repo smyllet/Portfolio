@@ -14,9 +14,9 @@
     {
       "name": "Disney Pins DataBase",
       "description": "Disney Pins DataBase est un service pour répertorier les pins des différents parcs Disneyland du monde. L’objectif était de permettre au collectionneur de pouvoir retrouver facilement tous les pins facilement à un seul endroit. Un système de contribution a été mis en place pour aider à référencer les différents pins sortis depuis l’ouverture des parcs. Une API a aussi été mise en place afin de pouvoir créer différentes applications à partir de cette base de données.",
-      "date": "Depuis novembre 2020",
+      "date": "Novembre 2020 - Mai 2021",
       "language": ["Node JS", "SQL", "JavaScript", "HTML", "CSS"],
-      "status": "ec",
+      "status": "s",
       "type": "p",
       "u4": true,
       "git": "https://github.com/smyllet/DisneyPinsDataBase/",
@@ -109,6 +109,10 @@
     {
       "code": "a",
       "libelle": "Annulé"
+    },
+    {
+      "code": "s",
+      "libelle": "Suspendu"
     }
   ],
   "type": [

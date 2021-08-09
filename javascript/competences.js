@@ -9,7 +9,7 @@ $(document).ready(() => {
 
     initPie('pie_development', 'Développement', [{
         name: 'Node JS / Javascript',
-        y: 40
+        y: 35
     }, {
         name: 'SQL',
         y: 20
@@ -22,6 +22,9 @@ $(document).ready(() => {
     }, {
         name: 'Python',
         y: 6
+    }, {
+        name: 'Flutter',
+        y: 5
     }, {
         name: 'HTML / CSS',
         y: 4

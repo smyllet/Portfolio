@@ -37,3 +37,44 @@ a:hover {
     color: #3D86BA;
 
 }
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#home_social {
+    display: grid;
+    width: min-content;
+    margin: auto;
+    gap: 200px;
+    height: 10vh;
+}
+
+#home_social > * {
+    grid-auto-columns: max-content;
+    grid-row: 1;
+    margin: auto;
+    width: 10vh;
+}
+
+#home_social img {
+    height: 8vh;
+}
+
+#home_social > *:hover img {
+    height: 9vh;
+}
+
+#home_presentation_div {
+    width: 80vw;
+}
+
+@media all and (max-width: 520px) {
+    #home_social {
+        display: grid;
+        width: auto;
+        margin: initial;
+        gap: initial;
+    }
+}

@@ -17,15 +17,15 @@
             <li class="nav-item <?php if($page == "competences") echo "active"?>">
                 <a class="nav-link" href="/competences">Compétences</a>
             </li>
-            <li class="nav-item <?php if($page == "parcours") echo "active"?>">
+            <!--<li class="nav-item <?php if($page == "parcours") echo "active"?>">
                 <a class="nav-link" href="/parcours">Parcours</a>
-            </li>
+            </li>-->
             <li class="nav-item <?php if($page == "projets") echo "active"?>">
                 <a class="nav-link" href="/projets">Projets</a>
             </li>
-            <li class="nav-item <?php if($page == "veille") echo "active"?>">
+            <!--<li class="nav-item <?php if($page == "veille") echo "active"?>">
                 <a class="nav-link" href="/veille">Veille Technologique</a>
-            </li>
+            </li>-->
             <li class="nav-item">
                 <a class="nav-link" href="mailto:bryan.prolong@outlook.fr?subject=[Contact Portfolio]">Contact</a>
             </li>

@@ -89,10 +89,6 @@
             <img src="/img/error.svg" alt="Error icon">
         </div>
     </section>
-
-    <section>
-        <iframe src="/img/projet/stage/guide.pdf#view=fit"></iframe>
-    </section>
 </main>
 </body>
 </html>
